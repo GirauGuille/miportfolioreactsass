@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "title": "html",
+        "icon": "",
+        "category": "frontend",
+        "percent": "90"
+    },
+    {
+        "id": 2,
+        "title": "css",
+        "icon": "",
+        "category": "frontend",
+        "percent": "90"
+    },
+    {
+        "id": 3,
+        "title": "js",
+        "icon": "",
+        "category": "frontend",
+        "percent": "75"
+    },
+    {
+        "id": 4,
+        "title": "photoshop",
+        "icon": "",
+        "category": "diseño",
+        "percent": "80"
+    },
+    {
+        "id": 5,
+        "title": "illustrator",
+        "icon": "",
+        "category": "diseño",
+        "percent": "80"
+    },
+    {
+        "id": 6,
+        "title": "in dising",
+        "icon": "",
+        "category": "diseño",
+        "percent": "75"
+    },
+    {
+        "id": 7,
+        "title": "after effect",
+        "icon": "",
+        "category": "diseño",
+        "percent": "75"
+    },
+    {
+        "id": 8,
+        "title": "node",
+        "icon": "",
+        "category": "backend",
+        "percent": "90"
+    },
+    {
+        "id": 9,
+        "title": "mongo db",
+        "icon": "",
+        "category": "backend",
+        "percent": "75"
+    },
+    {
+        "id": 10,
+        "title": "sass",
+        "icon": "",
+        "category": "frontend",
+        "percent": "75"
+    },
+    {
+        "id": 3,
+        "title": "bootstrap",
+        "icon": "",
+        "category": "frontend",
+        "percent": "90"
+    },
+    {
+        "id": 3,
+        "title": "express",
+        "icon": "",
+        "category": "backend",
+        "percent": "85"
+    },
+    {
+        "id": 3,
+        "title": "jwt",
+        "icon": "",
+        "category": "",
+        "percent": "75"
+    },
+    {
+        "id": 3,
+        "title": "oauth",
+        "icon": "",
+        "category": "frontend",
+        "percent": "75"
+    }
+]

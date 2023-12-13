@@ -1,0 +1,69 @@
+@import './abstracts/mixins';
+
+.contacto {
+    height: 100vh;
+
+    .cTitle {
+        @include title
+    }
+
+    .cInfo {
+        margin: 1rem;
+        background-color: var(--verde-oscuro);
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .cTexto{
+            margin: 5px;
+            text-align: center;
+        }
+        .linkBox {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+
+            .btnC {
+                width: 6rem;
+                height: 6rem;
+                background-color: var(--verde-negro);
+                border-radius: 8px;
+                margin: 12px;
+                padding: 5px;
+                font-size: large;
+
+                a {
+                    color: var(--verde-claro);
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .cTexto{
+        font-size: xx-large;
+    }
+}
+
+@media (min-width: 1280px) {
+    .cInfo{
+        flex: 0.4;
+        
+    }
+    .form{
+        flex: 1;
+    }
+    .contactoBox{
+        display: flex;
+        flex-direction: row;
+    }
+    .btnC{
+        width: 8rem;
+        height: 8rem;
+    }
+}
