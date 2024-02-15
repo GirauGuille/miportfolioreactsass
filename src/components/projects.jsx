@@ -5,7 +5,7 @@ import { TbWorld } from 'react-icons/tb'
 
 const projects = () => {
     return (
-        <div className='projects' id='projects'>
+        <section className='projects' id='projects'>
             <h2 className='cTitle'>PROYECTOS</h2>
             <div className="cardsContainer">
                 {proyects.map((item) => (
@@ -28,7 +28,7 @@ const projects = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </section>
     )
 }
 

@@ -3,10 +3,6 @@ import Intro from "./components/intro.jsx"
 import About from "./components/about.jsx"
 import Portfolio from "./components/portfolio.jsx"
 import Contact from "./components/contact.jsx"
-
-import Skills from "./components/skills.jsx"
-import Education from "./components/education.jsx"
-
 import Proyectos from "./components/projects.jsx"
 import './App.scss'
 import { I18nextProvider } from 'react-i18next';
@@ -21,8 +17,6 @@ function App() {
         <Intro />
         <About />
         <Portfolio />
-        <Education />
-        <Skills />
         <Proyectos />
         <Contact />
       </I18nextProvider>

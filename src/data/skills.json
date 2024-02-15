@@ -2,99 +2,92 @@
     {
         "id": 1,
         "title": "html",
-        "icon": "",
+        "icon": "html.png",
         "category": "frontend",
         "percent": "90"
     },
     {
         "id": 2,
         "title": "css",
-        "icon": "",
+        "icon": "css.png",
         "category": "frontend",
         "percent": "90"
     },
     {
         "id": 3,
         "title": "js",
-        "icon": "",
+        "icon": "javascript.png",
         "category": "frontend",
         "percent": "75"
     },
     {
         "id": 4,
         "title": "photoshop",
-        "icon": "",
+        "icon": "photoshop.png",
         "category": "diseño",
         "percent": "80"
     },
     {
         "id": 5,
         "title": "illustrator",
-        "icon": "",
+        "icon": "illustrator.png",
         "category": "diseño",
         "percent": "80"
     },
     {
         "id": 6,
         "title": "in dising",
-        "icon": "",
+        "icon": "indesign.png",
         "category": "diseño",
         "percent": "75"
     },
     {
         "id": 7,
         "title": "after effect",
-        "icon": "",
+        "icon": "afterEffects.png",
         "category": "diseño",
         "percent": "75"
     },
     {
         "id": 8,
         "title": "node",
-        "icon": "",
+        "icon": "nodo.png",
         "category": "backend",
         "percent": "90"
     },
     {
         "id": 9,
         "title": "mongo db",
-        "icon": "",
+        "icon": "mongodb.png",
         "category": "backend",
         "percent": "75"
     },
     {
         "id": 10,
         "title": "sass",
-        "icon": "",
+        "icon": "sass.png",
         "category": "frontend",
         "percent": "75"
     },
     {
         "id": 3,
         "title": "bootstrap",
-        "icon": "",
+        "icon": "bootstrap.png",
         "category": "frontend",
         "percent": "90"
     },
     {
         "id": 3,
         "title": "express",
-        "icon": "",
+        "icon": "expresarjs.png",
         "category": "backend",
         "percent": "85"
     },
     {
         "id": 3,
-        "title": "jwt",
-        "icon": "",
-        "category": "",
-        "percent": "75"
-    },
-    {
-        "id": 3,
-        "title": "oauth",
-        "icon": "",
-        "category": "frontend",
-        "percent": "75"
+        "title": "typescipt",
+        "icon": "typescipt.png",
+        "category": "backend",
+        "percent": "20"
     }
 ]

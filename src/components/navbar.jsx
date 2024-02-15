@@ -22,7 +22,7 @@ export default function navbar() {
                 <Link to='contact' activeClass='active' smooth={true} spy={true} className='link'>
                     <BsChatSquareDotsFill />
                 </Link>
-                < LanguageSwitch />
+                {/* < LanguageSwitch /> */}
             </div>
         </nav>
     )

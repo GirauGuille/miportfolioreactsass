@@ -25,9 +25,16 @@ function about() {
                 </div>
                 <img className='foto' src={yo} alt="Guillermo Lucas Girau" />
             </div>
-            <div className='frase'>
-                <TypewriterWithAuthor text="ELIGE UN TRABAJO QUE TE APASIONE Y NO TENDRÁS QUE TRABAJAR NI UN DÍA DE TU VIDA" author="Confucio" />
+            <div className="frase">
+                <div className='chapa'>
+                    <div class="agujero agujero1"></div>
+                    <div class="agujero agujero2"></div>
+                    <div class="agujero agujero3"></div>
+                    <div class="agujero agujero4"></div>
+                    <TypewriterWithAuthor text="ELIGE UN TRABAJO QUE TE APASIONE Y NO TENDRÁS QUE TRABAJAR NI UN DÍA DE TU VIDA" author="Confucio" />
+                </div>
             </div>
+            
         </div>
     )
 }

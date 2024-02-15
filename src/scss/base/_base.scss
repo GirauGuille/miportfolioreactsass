@@ -1,6 +1,11 @@
-html, body{
-    background-color: black;
+html,
+body {
+    background: rgb(0, 4, 1);
+    background: linear-gradient(141deg, rgba(18,51,17,1) 7%, rgba(0,4,1,1) 30%, rgba(0,4,1,1) 83%, rgba(18,51,17,1) 97%);
     color: white;
     font-family: var(--font-roboto);
 }
 
+/* degrade circular
+background: rgb(29,77,27);
+background: radial-gradient(circle, rgba(29,77,27,1) 0%, rgba(0,4,1,1) 24%, rgba(0,7,1,1) 63%, rgba(10,107,11,1) 90%, rgba(9,91,9,1) 100%); */

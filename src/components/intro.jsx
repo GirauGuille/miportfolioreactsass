@@ -4,7 +4,7 @@ import {BsFillArrowDownSquareFill} from 'react-icons/bs'
 
 const Intro = () => {
     return (
-        <div className="i" id="intro">
+        <section className="i" id="intro">
             <div className="i-left">
                 <div className="i-left-wrapper">
                     <h2 className="i-intro">Hola, mi nombre es</h2>
@@ -28,7 +28,7 @@ const Intro = () => {
             <div className="i-right">
                 <img className="i-img" src={logoGLG} alt="" />
             </div>
-        </div>
+        </section>
     );
 };
 

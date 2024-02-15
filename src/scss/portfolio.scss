@@ -1,8 +1,6 @@
 @import './abstracts/mixins';
 
 .portfolio {
-    height: 100vh;
-
     .cTitle {
         @include title
     }
@@ -11,68 +9,179 @@
         background-color: grey;
         width: 100%;
         text-align: center;
+        padding: 0.5rem;
 
         ul {
             display: flex;
             flex-direction: row;
             justify-content: space-around;
             padding: 5px;
+            color: var(--verde-claro);
+            font-weight: bold;
+            font-size: 25px;
+            letter-spacing: 3px;
         }
     }
 
-    .timeLine {
-        background-color: rgb(72, 74, 73);
-        padding: 5px;
+    /* EDUCATION */
+    .education {
+        background-color: rgba(77, 96, 86, 0.732);
+        padding: 12px;
 
         .infoTimeline {
-            display: flex;
-            flex-direction: row;
+            padding: 12px;
+            margin: 20px;
+            display: grid;
+            text-align: center;
+            grid-template-columns: 0.6fr 3fr;
+            background-color: rgba(0, 0, 0, 0.438);
+            border-radius: 20px;
+            transition: transform 0.3s ease-in-out;
 
-            padding: 5px;
-            background-color: rgb(77, 96, 86);
+            &:hover {
+                transform: scale(1.05);
 
-            .date {
-                writing-mode: vertical-rl;
-                text-orientation: unset;
-                text-align: center;
+                .dot {
+                    border: 3px solid green;
+                    background-color: white;
+                }
             }
 
-            .line {
-                width: 3px;
-                position: relative;
-                background-color: #48b379;
-                margin: 0 20px;
-                text-align: center;
-            }
-
-            .circle {
-                width: 20px;
-                height: 20px;
-                position: absolute;
-                top: 50%;
-                background: #48b379;
-                border: 4px solid #eee9dc;
-                border-radius: 50%;
+            .time {
                 display: flex;
-                transform: translateX(-50%);
+                justify-content: start;
+                align-items: center;
 
+                .date {
+                    writing-mode: vertical-rl;
+                    text-orientation: unset;
+                    font-size: 17px;
+                    letter-spacing: 10px;
+                }
+
+                .decoration {
+                    position: relative;
+                    width: 50px;
+                    height: 100%;
+
+                    .linea {
+                        position: absolute;
+                        width: 3px;
+                        height: 100%;
+                        background-color: white;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+
+                    .dot {
+                        position: absolute;
+                        width: 20px;
+                        height: 20px;
+                        background-color: green;
+                        border-radius: 50%;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        transition: border 0.3s, background-color 0.3s;
+                    }
+                }
 
             }
+
 
             .content {
-                display: flex;
-                flex-direction: row;
-                padding: 5px;
-            }
+                padding: 10px;
 
-            .imgTitle {
-                width: 60px;
+                .imgTitle {
+                    width: 100%;
+                    margin: 5px;
+                    padding-right: 2px;
+                }
+
+                .title {
+                    font-size: larger;
+                    text-align: center;
+                    margin-bottom: 2px;
+                }
+
+                .school {
+                    font-size: small;
+                    margin-bottom: 5px;
+                }
+
+                .infoCourse {
+                    text-align: left;
+                    margin-top: 15px;
+                    display: grid;
+                    place-items: center;
+
+                    .toolsCourse {
+                        margin: 12px;
+
+                        .toolImage {
+                            width: 36px;
+                            margin: 3px;
+                        }
+                    }
+                }
+                .imgSchool {
+                    display: none;
+                }
             }
         }
-    .progress__box{
-        width: 200px;
-        transition: stroke-dashoffset 1s;
-    }
+
+        @media (min-width: 768px) {
+            .infoTimeline {
+                margin: 25px;
+
+                .time .date {
+                    font-size: 25px;
+                }
+
+                .content {
+                    display: grid;
+                    grid-template-columns: 1fr 2fr;
+
+                    .imgTitle {}
+
+                    .infoCourse {
+                        .title {
+                            font-size: 30px;
+                        }
+
+                        .school {
+                            font-size: 20px;
+                        }
+
+                        .toolsCourse .toolImage {
+                            width: 50px;
+                        }
+                    }
+                }
+            }
+        }
+        }
+
+
+
+    /* SKILLS */
+    .progress__box {
+        transition: stroke-dashoffset 2s;
+        margin: 15px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .iconSills {
+            color: var(--verde-reclaro);
+            width: 60px;
+        }
+
+        .progress__circle {
+            width: 8rem;
+            margin: 6px;
+        }
     }
 
 }
